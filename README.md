@@ -8,19 +8,19 @@ A smart notification management system built using React JS and Material UI that
 
 ### Dashboard UI
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./page1.png)
 
 ---
 
 ### Console Output
 
-![Console](./screenshots/console.png)
+![Console](./page2.png)
 
 ---
 
 ### Fetch Users Action
 
-![Fetch Users](./screenshots/fetch-users.png)
+![Fetch Users](./page3.png)
 
 ## Project Overview
 
@@ -29,6 +29,18 @@ Campus Priority Inbox is a responsive dashboard application that fetches notific
 The application ensures that students see the most important notifications first, such as placement updates, exam results, and campus events.
 
 ---
+### Stage1 UI
+
+![Stage1](./stage1.png)
+
+---
+
+### Stage2 Output
+
+![Stage2](./stage2.png)
+
+---
+
 
 ## Features
 
@@ -53,6 +65,8 @@ Notifications are sorted based on:
 | Placement         | Highest  |
 | Result            | Medium   |
 | Event             | Lowest   |
+
+
 
 If two notifications have the same priority, the newest notification is displayed first based on timestamp.
 
