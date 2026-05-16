@@ -10,7 +10,23 @@ A React-based reusable logging middleware implementation with API integration an
 - React Component Architecture
 - Fetch API Integration
 - Clean UI Design
+## Screenshots
 
+### Dashboard UI
+
+![Dashboard](./screenshots/page1.png)
+
+---
+
+### Console Output
+
+![Console](./screenshots/page2.png)
+
+---
+
+### Fetch Users Action
+
+![Fetch Users](./screenshots/page3.png)
 ## Technologies Used
 - React JS
 - JavaScript
