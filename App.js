@@ -1,48 +1,24 @@
-import "./App.css";
-
-import LoginButton from "./components/LoginButton";
-import UserData from "./components/UserData";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-
   return (
-
-    <div className="app-container">
-
-      <div className="card">
-
-        <h1>Logging Middleware Dashboard</h1>
-
-        <p className="subtitle">
-          React-based reusable logging middleware with API integration.
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
         </p>
-
-        <div className="button-group">
-
-          <LoginButton />
-
-          <UserData />
-
-        </div>
-
-        <div className="info-box">
-
-          <h3>Features Implemented</h3>
-
-          <ul>
-            <li>Reusable Logger Utility</li>
-            <li>Frontend Logging Middleware</li>
-            <li>API Request Logging</li>
-            <li>Error Handling</li>
-            <li>React Component Structure</li>
-          </ul>
-
-        </div>
-
-      </div>
-
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-
   );
 }
 
