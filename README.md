@@ -134,8 +134,3 @@ Responsible for:
 
 ---
 
-## Installation Steps
-
-### 1. Clone Repository
-
-```bash
